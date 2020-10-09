@@ -8,9 +8,12 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  possible winners =[]
+  possible_winners =[]
   hash.each do |key, value|
     if key == suite_a
-      
+      possible_winners << value
+    end
+  end
+  
   
 end
