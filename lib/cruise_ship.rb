@@ -14,6 +14,6 @@ def select_winner(passengers)
       possible_winners << value
     end
   end
-  
+  possible_winners
   
 end
