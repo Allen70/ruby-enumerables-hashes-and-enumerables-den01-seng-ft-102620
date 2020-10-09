@@ -8,12 +8,12 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  possible_winners = ""
+  winner = ""
   hash.each do |suite, name|
-    if suite == :suite_a
-      possible_winners << value
+    if suite == :suite_a && name.start_with?(A)
+      winner = name
     end
   end
-  possible_winners
+winner
   
 end
